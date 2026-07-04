@@ -1,0 +1,16 @@
+{
+  "name": "beastconverter-stripe-backend",
+  "version": "1.0.0",
+  "description": "Backend for BeastConverter's Stripe Checkout + webhook — deploy separately from the static site (Render, Railway, etc.), never on Vercel alongside the frontend.",
+  "main": "stripe-backend-example.js",
+  "scripts": {
+    "start": "node stripe-backend-example.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "stripe": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
